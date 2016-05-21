@@ -55,11 +55,13 @@ namespace ButterflyTest
             
             imageView = (ImageView)FindViewById(Resource.Id.img_butterfly);
             mh = new MyHandler(this);
+            // 如果设置src属性,则Background为空
             if (imageView.Background == null)
             {
                 Log.Debug(TAG, "Background为空!");
             }
-            butterfly = (AnimationDrawable)imageView.Drawable;
+            butterfly = (AnimationDrawable)imageView.Background;
+            // 如果设置了Background属性,则 Drawable为空
             if (imageView.Drawable == null)
             {
                 Log.Debug(TAG, "Drawable为空!");
