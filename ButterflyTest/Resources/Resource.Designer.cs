@@ -28,6 +28,22 @@ namespace ButterflyTest
 		{
 		}
 		
+		public partial class Animation
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int butterfly = 2130968576;
+			
+			static Animation()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Animation()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -45,7 +61,25 @@ namespace ButterflyTest
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int butterfly_f01 = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int butterfly_f02 = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int butterfly_f03 = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int butterfly_f04 = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int butterfly_f05 = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int butterfly_f06 = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int Icon = 2130837510;
 			
 			static Drawable()
 			{
@@ -60,8 +94,11 @@ namespace ButterflyTest
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int MyButton = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int MyButton = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int img_butterfly = 2131099649;
 			
 			static Id()
 			{
@@ -92,11 +129,11 @@ namespace ButterflyTest
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
 			
 			static String()
 			{
